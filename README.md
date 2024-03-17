@@ -10,15 +10,9 @@ Este projeto consiste em um placar de pontuação utilizando Arduino, inspirado 
 - **Pontuação:** O juiz tem botões para adicionar pontos para cada time. Os pontos são exibidos em placares compostos de LEDs simples que formam displays de 7 segmentos, cada segmento com 3 LEDs.
 - **Reset do Placar:** O juiz tem um botão para resetar os placares, zerando a pontuação de ambos os times.
 
-## Regras do Jogo
+## Sobre o Projeto
 
-Neste projeto, vamos criar um jogo no estilo "Passa ou Repassa" utilizando o Arduino em uma plataforma de simulação como o Tinkercad. O jogo é projetado para dois jogadores, com um sistema de pontuação, luzes de alarme e um botão de desativação para o juiz.
-
-### O que será preciso fazer no projeto:
-
-1. Monte os componentes na plataforma Tinkercad ou uma plataforma de simulação similar à qual eu possa ter acesso, incluindo a placa Arduino, botões, LEDs, etc.
-2. Conecte os componentes de acordo com o esquemático do circuito.
-3. Escreva o código Arduino para controlar o funcionamento do jogo, incluindo a lógica para acionar a sirene, luzes de alarme, pontuação e reset do placar.
+Neste projeto, optamos por criar um placar de pontuação utilizando Arduino e LEDs simples, em vez de usar um display de 7 segmentos pronto. Isso se deve às limitações de recursos na plataforma Tinkercad, onde só temos disponível o Arduino Uno e precisamos lidar com o número limitado de pinos digitais. Portanto, para contornar essa limitação, foi necessário usar 5 Arduinos no total: 1 mestre e 4 escravos, cada um responsável por controlar um dígito do placar. Essa abordagem nos permitiu criar um placar funcional dentro das restrições da plataforma de simulação.
 
 ## Circuito Elétrico
 

@@ -24,7 +24,7 @@ Neste projeto, vamos criar um jogo no estilo "Passa ou Repassa" utilizando o Ard
 
 Abaixo está o circuito elétrico do projeto realizado na plataforma Tinkercad:
 
-![Circuito Elétrico do Projeto](Circuito Eletrico.png)
+![Circuito Eletrico](https://github.com/MauricioSuporte/PassaOuRepassa/assets/50925332/543eafdd-ed48-45ed-ac93-cb642595dbc1)
 
 ## Contribuição
 

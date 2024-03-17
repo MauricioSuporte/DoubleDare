@@ -9,8 +9,8 @@
 #define TEAM2_LED_PIN 8 // LED azul
 #define BUZZER_PIN 10   // Pino do buzzer
 
-int team1Score = 0; // Pontuação time Vermelho
-int team2Score = 0; // Pontuação time Azul
+int team1Score = 36; // Pontuação time Vermelho
+int team2Score = 97; // Pontuação time Azul
 const unsigned long debounceDelay = 3000; // Delay de debounce de 3 segundo
 bool buttonPressed = false; // Se o botão dos times foi apertado ou não
 unsigned long buttonPressedTime = 0; // Tempo em que botão dos times foi apertado
@@ -76,8 +76,8 @@ void loop() {
   }
   
   // Envie a pontuação atual pela comunicação serial
-  Serial.print("Pontos Time Vermelho: ");
+  Serial.print("Vermelho ");
   Serial.print(team1Score);
-  Serial.print(" Pontos Time Azul: ");
+  Serial.print(" Azul ");
   Serial.println(team2Score);
 }
